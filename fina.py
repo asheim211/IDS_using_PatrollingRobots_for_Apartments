@@ -11,13 +11,13 @@ import time
 port=serial.Serial("COM3",9600,timeout=0.1)
 
 # Define the Twilio credentials and phone numbers
-twilio_account_sid = 'ACcc0c0a3dbb38e843e863ad50d29693ec'
-twilio_auth_token = 'a771c3b613ecf23d0e94d0887d268a52'
-twilio_from_number = '+12408470852'
-twilio_to_number = '+918939498280'
+# twilio_account_sid = 'ACcc0c0a3dbb38e843e863ad50d29693ec'
+# twilio_auth_token = 'a771c3b613ecf23d0e94d0887d268a52'
+# twilio_from_number = '+12408470852'
+# twilio_to_number = '+918939498280'
 
 # Initialize the Twilio client
-twilio_client = Client(twilio_account_sid, twilio_auth_token)
+# twilio_client = Client(twilio_account_sid, twilio_auth_token)
 
 # Define the argument parser
 ap = argparse.ArgumentParser()
